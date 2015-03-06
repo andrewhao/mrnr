@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "NewRunViewController.h"
 
 @interface HomeViewController ()
 
@@ -23,6 +24,14 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    UIViewController *nextController = [segue destinationViewController];
+    if ([nextController isKindOfClass:[NewRunViewController class]]) {
+        ((NewRunViewController *) nextController).managedObjectContext = self.managedObjectContext;
+    }
 }
 
 /*

@@ -7,7 +7,7 @@
 //
 
 
-#import "DetailViewController.h"
+#import "NewRunViewController.h"
 #import "Run.h"
 
 static NSString * const detailSegueName = @"RunDetails";
@@ -35,6 +35,59 @@ static NSString * const detailSegueName = @"RunDetails";
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)startPressed:(id)sender
+{
+    // hide the start UI
+    self.startButton.hidden = YES;
+    self.promptLabel.hidden = YES;
+    
+    // show the running UI
+    self.timeLabel.hidden = NO;
+    self.distLabel.hidden = NO;
+    self.paceLabel.hidden = NO;
+    self.stopButton.hidden = NO;
+}
+
+- (IBAction)stopPressed:(id)sender
+{
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self
+                                                    cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil
+                                                    otherButtonTitles:@"Save", @"Discard", nil];
+    actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
+    [actionSheet showInView:self.view];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.startButton.hidden = NO;
+    self.promptLabel.hidden = NO;
+    
+    self.timeLabel.text = @"";
+    self.timeLabel.hidden = YES;
+    self.distLabel.hidden = YES;
+    self.paceLabel.hidden = YES;
+    self.stopButton.hidden = YES;
+}
+
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    // save
+    if (buttonIndex == 0) {
+        [self performSegueWithIdentifier:detailSegueName sender:nil];
+        
+        // discard
+    } else if (buttonIndex == 1) {
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    [[segue destinationViewController] setRun:self.run];
 }
 
 /*

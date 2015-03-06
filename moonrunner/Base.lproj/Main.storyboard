@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vhb-pC-QZO">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--Master-->
-        <scene sceneID="pY4-Hu-kfo">
-            <objects>
-                <navigationController title="Master" id="RMx-3f-FxP" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Pmd-2v-anx">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="vhb-pC-QZO" kind="relationship" relationship="rootViewController" id="Wjm-7R-AfL"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8fS-aE-onr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-132" y="-654"/>
-        </scene>
         <!--Home-->
         <scene sceneID="QEn-lR-Px0">
             <objects>
-                <viewController title="Home" id="vhb-pC-QZO" sceneMemberID="viewController">
+                <viewController title="Home" id="vhb-pC-QZO" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h27-Dg-SeR"/>
                         <viewControllerLayoutGuide type="bottom" id="yFl-kA-Q79"/>
@@ -70,7 +55,7 @@
         <!--New Run-->
         <scene sceneID="oLV-wm-NPi">
             <objects>
-                <viewController title="New Run" id="3a7-hl-f83" sceneMemberID="viewController">
+                <viewController title="New Run" id="3a7-hl-f83" customClass="NewRunViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MCx-YH-npv"/>
                         <viewControllerLayoutGuide type="bottom" id="80z-Zk-Tyq"/>
@@ -120,6 +105,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="SZz-1v-3fn"/>
                     <connections>
+                        <outlet property="distLabel" destination="1zd-3r-hVH" id="aEc-mv-V5k"/>
+                        <outlet property="paceLabel" destination="Eov-Et-YT5" id="Z8o-je-D03"/>
+                        <outlet property="startButton" destination="kAs-Zz-YzW" id="Ee9-sE-kfh"/>
+                        <outlet property="stopButton" destination="8xX-KQ-5Fy" id="hft-rH-8dI"/>
+                        <outlet property="timeLabel" destination="sSj-aR-e1s" id="ecT-4S-oRK"/>
                         <segue destination="20Y-v6-p3p" kind="push" id="GbD-V7-Z6d"/>
                     </connections>
                 </viewController>
@@ -130,7 +120,7 @@
         <!--Run Details-->
         <scene sceneID="ZZL-pE-nZN">
             <objects>
-                <viewController title="Run Details" id="20Y-v6-p3p" sceneMemberID="viewController">
+                <viewController title="Run Details" id="20Y-v6-p3p" customClass="DetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="feA-cp-1xx"/>
                         <viewControllerLayoutGuide type="bottom" id="e21-rY-jvl"/>
@@ -170,6 +160,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Acl-Vh-F1H"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="Smb-F2-M5N" id="YMA-6G-xf8"/>
+                        <outlet property="distanceLabel" destination="lYh-3G-4aO" id="ey4-Ks-FX9"/>
+                        <outlet property="mapView" destination="HG4-iO-p6W" id="tDz-x1-HYj"/>
+                        <outlet property="paceLabel" destination="8lH-I2-0hK" id="i96-ow-RoM"/>
+                        <outlet property="timeLabel" destination="Iz4-9o-isG" id="oUO-FU-ytZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6n7-PX-7im" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
