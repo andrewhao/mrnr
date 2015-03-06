@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
-#import "MasterViewController.h"
+#import "HomeViewController.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
