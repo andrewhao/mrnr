@@ -19,13 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
-    UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
-    navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
-    splitViewController.delegate = self;
+    //UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
 
-    UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
-    HomeViewController *controller = (HomeViewController *)masterNavigationController.topViewController;
+    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+
+    HomeViewController *controller = (HomeViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }

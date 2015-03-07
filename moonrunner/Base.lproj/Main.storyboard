@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vhb-pC-QZO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="j7h-kj-WRN">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="aKV-yy-ulO">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uOc-qZ-ecy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="j7h-kj-WRN" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c8v-6d-zYY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vhb-pC-QZO" kind="relationship" relationship="rootViewController" id="3uT-WC-x4R"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-227" y="-789"/>
+        </scene>
         <!--Home-->
         <scene sceneID="QEn-lR-Px0">
             <objects>
@@ -16,13 +32,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to MoonRunner" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nn-Zf-5Wx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to MoonRunner" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nn-Zf-5Wx">
                                 <rect key="frame" x="203" y="151" width="195" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="k00-zQ-h9D"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ier-Zp-foa">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ier-Zp-foa">
                                 <rect key="frame" x="301" y="285" width="63" height="30"/>
                                 <state key="normal" title="New Run">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -31,13 +50,13 @@
                                     <segue destination="3a7-hl-f83" kind="push" id="RFt-ub-RV6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XX-rH-uiX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XX-rH-uiX">
                                 <rect key="frame" x="301" y="349" width="70" height="30"/>
                                 <state key="normal" title="Past Runs">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fh7-Hq-oCF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fh7-Hq-oCF">
                                 <rect key="frame" x="301" y="409" width="78" height="30"/>
                                 <state key="normal" title="My Badges">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -45,6 +64,16 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fh7-Hq-oCF" firstAttribute="top" secondItem="1XX-rH-uiX" secondAttribute="bottom" constant="30" id="2cD-qP-epP"/>
+                            <constraint firstItem="6nn-Zf-5Wx" firstAttribute="top" secondItem="h27-Dg-SeR" secondAttribute="bottom" constant="87" id="9jl-KY-jfX"/>
+                            <constraint firstItem="Fh7-Hq-oCF" firstAttribute="leading" secondItem="1XX-rH-uiX" secondAttribute="leading" id="CN7-yP-Riz"/>
+                            <constraint firstItem="1XX-rH-uiX" firstAttribute="top" secondItem="Ier-Zp-foa" secondAttribute="bottom" constant="34" id="G6Q-pF-3cK"/>
+                            <constraint firstAttribute="trailing" secondItem="Fh7-Hq-oCF" secondAttribute="trailing" constant="221" id="OZv-bP-Pct"/>
+                            <constraint firstItem="Ier-Zp-foa" firstAttribute="centerY" secondItem="iot-Sq-xb1" secondAttribute="centerY" id="dKv-Bz-G8X"/>
+                            <constraint firstItem="1XX-rH-uiX" firstAttribute="leading" secondItem="Ier-Zp-foa" secondAttribute="leading" id="mhN-xW-UPx"/>
+                            <constraint firstItem="6nn-Zf-5Wx" firstAttribute="centerX" secondItem="iot-Sq-xb1" secondAttribute="centerX" id="pvZ-vV-6y8"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Hhz-HA-Pzb"/>
                 </viewController>
