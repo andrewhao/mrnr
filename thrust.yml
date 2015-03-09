@@ -1,0 +1,50 @@
+thrust_version: 0.7
+#project_name: My Great Project # do not use if building with an xcode workspace
+workspace_name: Moonrunner # use if building with an xcode workspace
+# path_to_xcodeproj: 'App/MyApp.xcodeproj' # use if xcodeproj is not in the same directory as this yaml file. Optional.
+app_name: Moonrunner
+distribution_certificate: 'Name of Distribution Signing Certificate'
+#ios_sim_path: '/path/to/ios-sim' # Optional. Use to prefer a specific ios-sim binary (e.g. within project directory) over a system-installed version (homebrew)
+
+deployment_targets:
+  staging:
+    target: MyGreatAppTarget # Name of the build target. Optional, defaults to app name.
+    build_configuration: Release
+    provisioning_search_query: 'query to find Provisioning Profile' # Otherwise, it will use the first provisioning profile in ~/Library/MobileDevice/Provisioning Profiles/
+    versioning_method: 'none' # or 'timestamp-sha' or 'commits'. Leave blank to use Git commit SHAs for build numbers.
+    tag: ci # Deploys latest commit with the tag. Leave blank to deploy from master.
+
+  demo:
+    build_configuration: Demo
+    provisioning_search_query: 'query to find Provisioning Profile'
+
+spec_targets:
+  # Example of an iOS spec suite configuration.
+  specs: # This is the name of the rake task
+    scheme: Pods-moonrunnerTests-Cedar # Name of the scheme.
+    type: app # Spec target type: 'app' or 'bundle'. Optional, defaults to app.
+    build_configuration: Debug # Name of the build configuration.
+    build_sdk: iphonesimulator8.1 # SDK used to build the target. Optional, defaults to latest iphonesimulator.
+    device_name: iPhone 6 # Device name. Run `ios-sim showdevicetypes` to see a full list of available devices.
+    os_version: 8.1 # OS version to run. Optional, defaults to latest available version.
+    timeout: 90 # Optional, defaults to 30 seconds.
+
+  # Example of an iOS spec bundle configuration.
+  spec_bundle:
+    scheme: moonrunner # Use the name for the main app scheme.
+    type: bundle
+    build_configuration: Debug
+    device_name: iPhone 4s
+    os_version: 7.1
+
+  # Example of a Mac OSX target configuration.
+  integration:
+    scheme: IntegrationSpecs (Moonrunner)
+    build_configuration: Release
+    build_sdk: macosx
+
+spec_directories:
+  - SpecSuite
+  - SpecBundle
+  - WatchKit/SpecBundle
+  - MacSpecSuite
