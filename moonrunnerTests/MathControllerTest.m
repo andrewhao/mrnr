@@ -14,19 +14,27 @@
 SpecBegin(MathController)
 
 describe(@"MathController", ^{
-
+    
     __block MathController *subject;
     
     beforeEach(^{
         subject = [[MathController alloc] init];
     });
     
-    it(@"does stuff", ^{
-        expect(@"1").to.equal(@"1");
-    });
-    
     it(@"initializes a MC", ^{
         expect(subject).to.beInstanceOf([MathController class]);
+    });
+    
+    describe(@"stringifyDistance", ^{
+        it(@"correctly formats the output for a 3-digit round km", ^{
+            NSString* result = [MathController stringifyDistance:1000.0];
+            expect(result).to.equal(@"1.00 km");
+        });
+        
+        it(@"formats the output for a 2-digit round km", ^{
+            NSString* result = [MathController stringifyDistance:100.0];
+            expect(result).to.equal(@"0.10 km");
+        });
     });
 });
 
