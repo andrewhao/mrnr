@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8689F5BE1AAE979800910B37 /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8689F5BD1AAE979800910B37 /* MathController.m */; };
+		8689F5C01AAE98BC00910B37 /* MathControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8689F5BF1AAE98BC00910B37 /* MathControllerTest.m */; };
 		86F2D4751AA959200045EA17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4741AA959200045EA17 /* main.m */; };
 		86F2D4781AA959200045EA17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4771AA959200045EA17 /* AppDelegate.m */; };
 		86F2D47B1AA959200045EA17 /* moonrunner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4791AA959200045EA17 /* moonrunner.xcdatamodeld */; };
@@ -63,6 +65,7 @@
 		86F2D4FC1AA96A310045EA17 /* umbriel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4D11AA96A310045EA17 /* umbriel.jpg */; };
 		86F2D4FF1AA96C7E0045EA17 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4FE1AA96C7E0045EA17 /* HomeViewController.m */; };
 		86F2D5021AA96CD30045EA17 /* NewRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D5011AA96CD30045EA17 /* NewRunViewController.m */; };
+		BFB666CBC8B3E343AEE0157E /* libPods-moonrunnerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02075B5FA5254BDEB1000BC0 /* libPods-moonrunnerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02075B5FA5254BDEB1000BC0 /* libPods-moonrunnerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonrunnerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC71C61C6EBA408B8659E2E /* Pods-moonrunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonrunnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		575D5099CE92F4137F9EB853 /* Pods-moonrunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonrunnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		8689F5BC1AAE979800910B37 /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathController.h; sourceTree = "<group>"; };
+		8689F5BD1AAE979800910B37 /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathController.m; sourceTree = "<group>"; };
+		8689F5BF1AAE98BC00910B37 /* MathControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathControllerTest.m; sourceTree = "<group>"; };
 		86F2D46F1AA959200045EA17 /* moonrunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moonrunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F2D4731AA959200045EA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F2D4741AA959200045EA17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -157,12 +166,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB666CBC8B3E343AEE0157E /* libPods-moonrunnerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E1D3BCA9646B882113D457B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02075B5FA5254BDEB1000BC0 /* libPods-moonrunnerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		86F2D4661AA959200045EA17 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +189,8 @@
 				86F2D4911AA959200045EA17 /* moonrunnerTests */,
 				86F2D4701AA959200045EA17 /* Products */,
 				86F2D4A61AA96A310045EA17 /* moonrunner_resources */,
+				C061A4616B902C9F4634D09B /* Pods */,
+				7E1D3BCA9646B882113D457B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,6 +206,8 @@
 		86F2D4711AA959200045EA17 /* moonrunner */ = {
 			isa = PBXGroup;
 			children = (
+				8689F5BC1AAE979800910B37 /* MathController.h */,
+				8689F5BD1AAE979800910B37 /* MathController.m */,
 				86F2D4FD1AA96C7E0045EA17 /* HomeViewController.h */,
 				86F2D4FE1AA96C7E0045EA17 /* HomeViewController.m */,
 				86F2D4761AA959200045EA17 /* AppDelegate.h */,
@@ -219,6 +241,7 @@
 		86F2D4911AA959200045EA17 /* moonrunnerTests */ = {
 			isa = PBXGroup;
 			children = (
+				8689F5BF1AAE98BC00910B37 /* MathControllerTest.m */,
 				86F2D4941AA959200045EA17 /* moonrunnerTests.m */,
 				86F2D4921AA959200045EA17 /* Supporting Files */,
 			);
@@ -283,6 +306,15 @@
 			path = moonrunner_resources;
 			sourceTree = "<group>";
 		};
+		C061A4616B902C9F4634D09B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AC71C61C6EBA408B8659E2E /* Pods-moonrunnerTests.debug.xcconfig */,
+				575D5099CE92F4137F9EB853 /* Pods-moonrunnerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,9 +339,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86F2D49B1AA959200045EA17 /* Build configuration list for PBXNativeTarget "moonrunnerTests" */;
 			buildPhases = (
+				10A6E6390E16244DDD4C0113 /* Check Pods Manifest.lock */,
 				86F2D48A1AA959200045EA17 /* Sources */,
 				86F2D48B1AA959200045EA17 /* Frameworks */,
 				86F2D48C1AA959200045EA17 /* Resources */,
+				E929035998A33C49CDB6D691 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -421,6 +455,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10A6E6390E16244DDD4C0113 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E929035998A33C49CDB6D691 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86F2D46B1AA959200045EA17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -428,6 +495,7 @@
 			files = (
 				86F2D4811AA959200045EA17 /* DetailViewController.m in Sources */,
 				86F2D4A31AA95A7C0045EA17 /* Location.m in Sources */,
+				8689F5BE1AAE979800910B37 /* MathController.m in Sources */,
 				86F2D4781AA959200045EA17 /* AppDelegate.m in Sources */,
 				86F2D4A01AA95A7B0045EA17 /* Run.m in Sources */,
 				86F2D4751AA959200045EA17 /* main.m in Sources */,
@@ -442,6 +510,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86F2D4951AA959200045EA17 /* moonrunnerTests.m in Sources */,
+				8689F5C01AAE98BC00910B37 /* MathControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +644,7 @@
 		};
 		86F2D49C1AA959200045EA17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC71C61C6EBA408B8659E2E /* Pods-moonrunnerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -594,6 +664,7 @@
 		};
 		86F2D49D1AA959200045EA17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575D5099CE92F4137F9EB853 /* Pods-moonrunnerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -626,6 +697,7 @@
 				86F2D49A1AA959200045EA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86F2D49B1AA959200045EA17 /* Build configuration list for PBXNativeTarget "moonrunnerTests" */ = {
 			isa = XCConfigurationList;
@@ -634,6 +706,7 @@
 				86F2D49D1AA959200045EA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
