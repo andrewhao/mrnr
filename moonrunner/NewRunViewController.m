@@ -79,7 +79,7 @@ static NSString * const detailSegueName = @"RunDetails";
     if (buttonIndex == 0) {
         [self performSegueWithIdentifier:detailSegueName sender:nil];
         
-        // discard
+        // discardd
     } else if (buttonIndex == 1) {
         [self.navigationController popToRootViewControllerAnimated:YES];
     }
