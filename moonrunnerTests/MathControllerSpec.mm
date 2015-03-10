@@ -7,10 +7,14 @@ using namespace Cedar::Doubles;
 SPEC_BEGIN(MathControllerSpec)
 
 describe(@"MathController", ^{
-    __block MathController *<#object under test#>;
+    __block MathController *controller;
 
     beforeEach(^{
-
+        subject = [[MathController alloc] init];
+    });
+    
+    it(@"returns a controller", ^{
+        subject should equal(subject);
     });
 });
 

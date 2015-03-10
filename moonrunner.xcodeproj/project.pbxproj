@@ -1,2034 +1,727 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>252F90D223D22FDD7A7A8C05</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>59530221457B2F9B84104F9D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-moonrunnerTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7753FF887C6487C6B58FEB18</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-moonrunnerTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4661AA959200045EA17</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86F2D4A41AA95AC00045EA17</string>
-				<string>86F2D4711AA959200045EA17</string>
-				<string>86F2D4911AA959200045EA17</string>
-				<string>86F2D4701AA959200045EA17</string>
-				<string>86F2D4A61AA96A310045EA17</string>
-				<string>947B2E30F49CBF76F26FF70F</string>
-				<string>9465C47C14F84175B34D93CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4671AA959200045EA17</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0610</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>g9Labs</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>86F2D46E1AA959200045EA17</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-					</dict>
-					<key>86F2D48D1AA959200045EA17</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-						<key>TestTargetID</key>
-						<string>86F2D46E1AA959200045EA17</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>86F2D46A1AA959200045EA17</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>86F2D4661AA959200045EA17</string>
-			<key>productRefGroup</key>
-			<string>86F2D4701AA959200045EA17</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>86F2D46E1AA959200045EA17</string>
-				<string>86F2D48D1AA959200045EA17</string>
-			</array>
-		</dict>
-		<key>86F2D46A1AA959200045EA17</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>86F2D4961AA959200045EA17</string>
-				<string>86F2D4971AA959200045EA17</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>86F2D46B1AA959200045EA17</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>86F2D4811AA959200045EA17</string>
-				<string>86F2D4A31AA95A7C0045EA17</string>
-				<string>86F2D4781AA959200045EA17</string>
-				<string>86F2D4A01AA95A7B0045EA17</string>
-				<string>86F2D4751AA959200045EA17</string>
-				<string>86F2D4FF1AA96C7E0045EA17</string>
-				<string>86F2D47B1AA959200045EA17</string>
-				<string>86F2D5021AA96CD30045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>86F2D46C1AA959200045EA17</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>86F2D4A51AA95AC00045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>86F2D46D1AA959200045EA17</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>86F2D4E71AA96A310045EA17</string>
-				<string>86F2D4D81AA96A310045EA17</string>
-				<string>86F2D4F01AA96A310045EA17</string>
-				<string>86F2D4D91AA96A310045EA17</string>
-				<string>86F2D4ED1AA96A310045EA17</string>
-				<string>86F2D4D61AA96A310045EA17</string>
-				<string>86F2D4F21AA96A310045EA17</string>
-				<string>86F2D4E91AA96A310045EA17</string>
-				<string>86F2D4F31AA96A310045EA17</string>
-				<string>86F2D4841AA959200045EA17</string>
-				<string>86F2D4D51AA96A310045EA17</string>
-				<string>86F2D4DE1AA96A310045EA17</string>
-				<string>86F2D4DF1AA96A310045EA17</string>
-				<string>86F2D4D41AA96A310045EA17</string>
-				<string>86F2D4D21AA96A310045EA17</string>
-				<string>86F2D4891AA959200045EA17</string>
-				<string>86F2D4E11AA96A310045EA17</string>
-				<string>86F2D4F91AA96A310045EA17</string>
-				<string>86F2D4E41AA96A310045EA17</string>
-				<string>86F2D4E01AA96A310045EA17</string>
-				<string>86F2D4FA1AA96A310045EA17</string>
-				<string>86F2D4FB1AA96A310045EA17</string>
-				<string>86F2D4EE1AA96A310045EA17</string>
-				<string>86F2D4D71AA96A310045EA17</string>
-				<string>86F2D4EF1AA96A310045EA17</string>
-				<string>86F2D4F81AA96A310045EA17</string>
-				<string>86F2D4FC1AA96A310045EA17</string>
-				<string>86F2D4861AA959200045EA17</string>
-				<string>86F2D4DC1AA96A310045EA17</string>
-				<string>86F2D4DD1AA96A310045EA17</string>
-				<string>86F2D4E61AA96A310045EA17</string>
-				<string>86F2D4DA1AA96A310045EA17</string>
-				<string>86F2D4E31AA96A310045EA17</string>
-				<string>86F2D4DB1AA96A310045EA17</string>
-				<string>86F2D4EC1AA96A310045EA17</string>
-				<string>86F2D4F71AA96A310045EA17</string>
-				<string>86F2D4EA1AA96A310045EA17</string>
-				<string>86F2D4F51AA96A310045EA17</string>
-				<string>86F2D4EB1AA96A310045EA17</string>
-				<string>86F2D4F61AA96A310045EA17</string>
-				<string>86F2D4E21AA96A310045EA17</string>
-				<string>86F2D4D31AA96A310045EA17</string>
-				<string>86F2D4F11AA96A310045EA17</string>
-				<string>86F2D4E81AA96A310045EA17</string>
-				<string>86F2D4F41AA96A310045EA17</string>
-				<string>86F2D4E51AA96A310045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>86F2D46E1AA959200045EA17</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>86F2D4981AA959200045EA17</string>
-			<key>buildPhases</key>
-			<array>
-				<string>86F2D46B1AA959200045EA17</string>
-				<string>86F2D46C1AA959200045EA17</string>
-				<string>86F2D46D1AA959200045EA17</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>moonrunner</string>
-			<key>productName</key>
-			<string>moonrunner</string>
-			<key>productReference</key>
-			<string>86F2D46F1AA959200045EA17</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>86F2D46F1AA959200045EA17</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>moonrunner.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>86F2D4701AA959200045EA17</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86F2D46F1AA959200045EA17</string>
-				<string>86F2D48E1AA959200045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4711AA959200045EA17</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86F2D4FD1AA96C7E0045EA17</string>
-				<string>86F2D4FE1AA96C7E0045EA17</string>
-				<string>86F2D4761AA959200045EA17</string>
-				<string>86F2D4771AA959200045EA17</string>
-				<string>86F2D5001AA96CD30045EA17</string>
-				<string>86F2D5011AA96CD30045EA17</string>
-				<string>86F2D47F1AA959200045EA17</string>
-				<string>86F2D4801AA959200045EA17</string>
-				<string>86F2D4821AA959200045EA17</string>
-				<string>86F2D4851AA959200045EA17</string>
-				<string>86F2D4871AA959200045EA17</string>
-				<string>86F2D4791AA959200045EA17</string>
-				<string>86F2D4A11AA95A7C0045EA17</string>
-				<string>86F2D4A21AA95A7C0045EA17</string>
-				<string>86F2D49E1AA95A7B0045EA17</string>
-				<string>86F2D49F1AA95A7B0045EA17</string>
-				<string>86F2D4721AA959200045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>moonrunner</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4721AA959200045EA17</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86F2D4731AA959200045EA17</string>
-				<string>86F2D4741AA959200045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4731AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4741AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4751AA959200045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4741AA959200045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4761AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4771AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4781AA959200045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4771AA959200045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4791AA959200045EA17</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86F2D47A1AA959200045EA17</string>
-			</array>
-			<key>currentVersion</key>
-			<string>86F2D47A1AA959200045EA17</string>
-			<key>isa</key>
-			<string>XCVersionGroup</string>
-			<key>path</key>
-			<string>moonrunner.xcdatamodeld</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>versionGroupType</key>
-			<string>wrapper.xcdatamodel</string>
-		</dict>
-		<key>86F2D47A1AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.xcdatamodel</string>
-			<key>path</key>
-			<string>moonrunner.xcdatamodel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D47B1AA959200045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4791AA959200045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D47F1AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DetailViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4801AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DetailViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4811AA959200045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4801AA959200045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4821AA959200045EA17</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86F2D4831AA959200045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4831AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4841AA959200045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4821AA959200045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4851AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4861AA959200045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4851AA959200045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4871AA959200045EA17</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86F2D4881AA959200045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4881AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4891AA959200045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4871AA959200045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D48A1AA959200045EA17</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>86F2D4951AA959200045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>86F2D48B1AA959200045EA17</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C6539B4BE4ABBA439B0599A6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>86F2D48C1AA959200045EA17</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>86F2D48D1AA959200045EA17</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>86F2D49B1AA959200045EA17</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A9B83DD5229C38E0063FABBF</string>
-				<string>86F2D48A1AA959200045EA17</string>
-				<string>86F2D48B1AA959200045EA17</string>
-				<string>86F2D48C1AA959200045EA17</string>
-				<string>252F90D223D22FDD7A7A8C05</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>86F2D4901AA959200045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>moonrunnerTests</string>
-			<key>productName</key>
-			<string>moonrunnerTests</string>
-			<key>productReference</key>
-			<string>86F2D48E1AA959200045EA17</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>86F2D48E1AA959200045EA17</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>moonrunnerTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>86F2D48F1AA959200045EA17</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>86F2D4671AA959200045EA17</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>86F2D46E1AA959200045EA17</string>
-			<key>remoteInfo</key>
-			<string>moonrunner</string>
-		</dict>
-		<key>86F2D4901AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>86F2D46E1AA959200045EA17</string>
-			<key>targetProxy</key>
-			<string>86F2D48F1AA959200045EA17</string>
-		</dict>
-		<key>86F2D4911AA959200045EA17</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86F2D4941AA959200045EA17</string>
-				<string>86F2D4921AA959200045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>moonrunnerTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4921AA959200045EA17</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86F2D4931AA959200045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4931AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4941AA959200045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>moonrunnerTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4951AA959200045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4941AA959200045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4961AA959200045EA17</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>86F2D4971AA959200045EA17</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>86F2D4981AA959200045EA17</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>86F2D4991AA959200045EA17</string>
-				<string>86F2D49A1AA959200045EA17</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>86F2D4991AA959200045EA17</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>moonrunner/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>86F2D49A1AA959200045EA17</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>moonrunner/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>86F2D49B1AA959200045EA17</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>86F2D49C1AA959200045EA17</string>
-				<string>86F2D49D1AA959200045EA17</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>86F2D49C1AA959200045EA17</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7753FF887C6487C6B58FEB18</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>moonrunnerTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/moonrunner.app/moonrunner</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>86F2D49D1AA959200045EA17</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>59530221457B2F9B84104F9D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>moonrunnerTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/moonrunner.app/moonrunner</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>86F2D49E1AA95A7B0045EA17</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Run.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D49F1AA95A7B0045EA17</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Run.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4A01AA95A7B0045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D49F1AA95A7B0045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4A11AA95A7C0045EA17</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Location.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4A21AA95A7C0045EA17</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Location.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4A31AA95A7C0045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4A21AA95A7C0045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4A41AA95AC00045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MapKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/MapKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>86F2D4A51AA95AC00045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4A41AA95AC00045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4A61AA96A310045EA17</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86F2D4A71AA96A310045EA17</string>
-				<string>86F2D4A81AA96A310045EA17</string>
-				<string>86F2D4A91AA96A310045EA17</string>
-				<string>86F2D4AA1AA96A310045EA17</string>
-				<string>86F2D4AB1AA96A310045EA17</string>
-				<string>86F2D4AC1AA96A310045EA17</string>
-				<string>86F2D4AD1AA96A310045EA17</string>
-				<string>86F2D4AE1AA96A310045EA17</string>
-				<string>86F2D4AF1AA96A310045EA17</string>
-				<string>86F2D4B01AA96A310045EA17</string>
-				<string>86F2D4B11AA96A310045EA17</string>
-				<string>86F2D4B21AA96A310045EA17</string>
-				<string>86F2D4B31AA96A310045EA17</string>
-				<string>86F2D4B41AA96A310045EA17</string>
-				<string>86F2D4B51AA96A310045EA17</string>
-				<string>86F2D4B61AA96A310045EA17</string>
-				<string>86F2D4B71AA96A310045EA17</string>
-				<string>86F2D4B81AA96A310045EA17</string>
-				<string>86F2D4B91AA96A310045EA17</string>
-				<string>86F2D4BA1AA96A310045EA17</string>
-				<string>86F2D4BB1AA96A310045EA17</string>
-				<string>86F2D4BC1AA96A310045EA17</string>
-				<string>86F2D4BD1AA96A310045EA17</string>
-				<string>86F2D4BE1AA96A310045EA17</string>
-				<string>86F2D4BF1AA96A310045EA17</string>
-				<string>86F2D4C01AA96A310045EA17</string>
-				<string>86F2D4C11AA96A310045EA17</string>
-				<string>86F2D4C21AA96A310045EA17</string>
-				<string>86F2D4C31AA96A310045EA17</string>
-				<string>86F2D4C41AA96A310045EA17</string>
-				<string>86F2D4C51AA96A310045EA17</string>
-				<string>86F2D4C61AA96A310045EA17</string>
-				<string>86F2D4C71AA96A310045EA17</string>
-				<string>86F2D4C81AA96A310045EA17</string>
-				<string>86F2D4C91AA96A310045EA17</string>
-				<string>86F2D4CA1AA96A310045EA17</string>
-				<string>86F2D4CB1AA96A310045EA17</string>
-				<string>86F2D4CC1AA96A310045EA17</string>
-				<string>86F2D4CD1AA96A310045EA17</string>
-				<string>86F2D4CE1AA96A310045EA17</string>
-				<string>86F2D4CF1AA96A310045EA17</string>
-				<string>86F2D4D01AA96A310045EA17</string>
-				<string>86F2D4D11AA96A310045EA17</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>moonrunner_resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4A71AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>ariel.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4A81AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>asteroid_belt.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4A91AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>atmosphere.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4AA1AA96A310045EA17</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>badges.txt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4AB1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>blue-btn.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4AC1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>callisto.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4AD1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>ceres.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4AE1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default-568h@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4AF1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>deimos.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4B01AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>dione.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4B11AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>earth.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4B21AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>enceladus.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4B31AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>europa.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4B41AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>ganymede.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4B51AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>green-btn.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4B61AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>iapetus.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4B71AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Icon-App.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4B81AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Icon-Settings.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4B91AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Icon-Spotlight.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4BA1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>info@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4BB1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>interstellar_space.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4BC1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>io.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4BD1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>kuiper_belt.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4BE1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>magnetotail.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4BF1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>mapPin@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4C01AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>mars.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4C11AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>mimas.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4C21AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>miranda.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4C31AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>moon.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4C41AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>oberon.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4C51AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>phobos.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4C61AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>pluto.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4C71AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>red-btn.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4C81AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>rhea.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4C91AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>saturn.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4CA1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>spaceship-gold.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4CB1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>spaceship-silver.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4CC1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>audio.wav</string>
-			<key>path</key>
-			<string>success.wav</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4CD1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>tethys.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4CE1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>titan.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4CF1AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>titania.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4D01AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>triton.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4D11AA96A310045EA17</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>umbriel.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4D21AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4A71AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4D31AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4A81AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4D41AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4A91AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4D51AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4AA1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4D61AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4AB1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4D71AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4AC1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4D81AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4AD1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4D91AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4AE1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4DA1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4AF1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4DB1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4B01AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4DC1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4B11AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4DD1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4B21AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4DE1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4B31AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4DF1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4B41AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4E01AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4B51AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4E11AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4B61AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4E21AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4B71AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4E31AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4B81AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4E41AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4B91AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4E51AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4BA1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4E61AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4BB1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4E71AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4BC1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4E81AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4BD1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4E91AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4BE1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4EA1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4BF1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4EB1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4C01AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4EC1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4C11AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4ED1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4C21AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4EE1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4C31AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4EF1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4C41AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4F01AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4C51AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4F11AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4C61AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4F21AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4C71AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4F31AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4C81AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4F41AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4C91AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4F51AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4CA1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4F61AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4CB1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4F71AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4CC1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4F81AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4CD1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4F91AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4CE1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4FA1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4CF1AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4FB1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4D01AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4FC1AA96A310045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4D11AA96A310045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D4FD1AA96C7E0045EA17</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HomeViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4FE1AA96C7E0045EA17</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HomeViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D4FF1AA96C7E0045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D4FE1AA96C7E0045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86F2D5001AA96CD30045EA17</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NewRunViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D5011AA96CD30045EA17</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NewRunViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86F2D5021AA96CD30045EA17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86F2D5011AA96CD30045EA17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9465C47C14F84175B34D93CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A935EBAA984C0082B17BDECB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>947B2E30F49CBF76F26FF70F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7753FF887C6487C6B58FEB18</string>
-				<string>59530221457B2F9B84104F9D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A935EBAA984C0082B17BDECB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-moonrunnerTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A9B83DD5229C38E0063FABBF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>C6539B4BE4ABBA439B0599A6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A935EBAA984C0082B17BDECB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>86F2D4671AA959200045EA17</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		864D25A71AAE5054006733FD /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864D25A61AAE5054006733FD /* MathController.m */; };
+		864D25A91AAE5351006733FD /* MathControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 864D25A81AAE5351006733FD /* MathControllerSpec.mm */; };
+		86F2D4751AA959200045EA17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4741AA959200045EA17 /* main.m */; };
+		86F2D4781AA959200045EA17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4771AA959200045EA17 /* AppDelegate.m */; };
+		86F2D47B1AA959200045EA17 /* moonrunner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4791AA959200045EA17 /* moonrunner.xcdatamodeld */; };
+		86F2D4811AA959200045EA17 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4801AA959200045EA17 /* DetailViewController.m */; };
+		86F2D4841AA959200045EA17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4821AA959200045EA17 /* Main.storyboard */; };
+		86F2D4861AA959200045EA17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4851AA959200045EA17 /* Images.xcassets */; };
+		86F2D4891AA959200045EA17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4871AA959200045EA17 /* LaunchScreen.xib */; };
+		86F2D4951AA959200045EA17 /* moonrunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4941AA959200045EA17 /* moonrunnerTests.m */; };
+		86F2D4A01AA95A7B0045EA17 /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D49F1AA95A7B0045EA17 /* Run.m */; };
+		86F2D4A31AA95A7C0045EA17 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4A21AA95A7C0045EA17 /* Location.m */; };
+		86F2D4A51AA95AC00045EA17 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F2D4A41AA95AC00045EA17 /* MapKit.framework */; };
+		86F2D4D21AA96A310045EA17 /* ariel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4A71AA96A310045EA17 /* ariel.jpg */; };
+		86F2D4D31AA96A310045EA17 /* asteroid_belt.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4A81AA96A310045EA17 /* asteroid_belt.png */; };
+		86F2D4D41AA96A310045EA17 /* atmosphere.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4A91AA96A310045EA17 /* atmosphere.jpg */; };
+		86F2D4D51AA96A310045EA17 /* badges.txt in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4AA1AA96A310045EA17 /* badges.txt */; };
+		86F2D4D61AA96A310045EA17 /* blue-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4AB1AA96A310045EA17 /* blue-btn.png */; };
+		86F2D4D71AA96A310045EA17 /* callisto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4AC1AA96A310045EA17 /* callisto.jpg */; };
+		86F2D4D81AA96A310045EA17 /* ceres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4AD1AA96A310045EA17 /* ceres.jpg */; };
+		86F2D4D91AA96A310045EA17 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4AE1AA96A310045EA17 /* Default-568h@2x.png */; };
+		86F2D4DA1AA96A310045EA17 /* deimos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4AF1AA96A310045EA17 /* deimos.jpg */; };
+		86F2D4DB1AA96A310045EA17 /* dione.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4B01AA96A310045EA17 /* dione.jpg */; };
+		86F2D4DC1AA96A310045EA17 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4B11AA96A310045EA17 /* earth.jpg */; };
+		86F2D4DD1AA96A310045EA17 /* enceladus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4B21AA96A310045EA17 /* enceladus.jpg */; };
+		86F2D4DE1AA96A310045EA17 /* europa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4B31AA96A310045EA17 /* europa.jpg */; };
+		86F2D4DF1AA96A310045EA17 /* ganymede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4B41AA96A310045EA17 /* ganymede.jpg */; };
+		86F2D4E01AA96A310045EA17 /* green-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4B51AA96A310045EA17 /* green-btn.png */; };
+		86F2D4E11AA96A310045EA17 /* iapetus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4B61AA96A310045EA17 /* iapetus.jpg */; };
+		86F2D4E21AA96A310045EA17 /* Icon-App.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4B71AA96A310045EA17 /* Icon-App.png */; };
+		86F2D4E31AA96A310045EA17 /* Icon-Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4B81AA96A310045EA17 /* Icon-Settings.png */; };
+		86F2D4E41AA96A310045EA17 /* Icon-Spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4B91AA96A310045EA17 /* Icon-Spotlight.png */; };
+		86F2D4E51AA96A310045EA17 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4BA1AA96A310045EA17 /* info@2x.png */; };
+		86F2D4E61AA96A310045EA17 /* interstellar_space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4BB1AA96A310045EA17 /* interstellar_space.jpg */; };
+		86F2D4E71AA96A310045EA17 /* io.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4BC1AA96A310045EA17 /* io.jpg */; };
+		86F2D4E81AA96A310045EA17 /* kuiper_belt.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4BD1AA96A310045EA17 /* kuiper_belt.png */; };
+		86F2D4E91AA96A310045EA17 /* magnetotail.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4BE1AA96A310045EA17 /* magnetotail.png */; };
+		86F2D4EA1AA96A310045EA17 /* mapPin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4BF1AA96A310045EA17 /* mapPin@2x.png */; };
+		86F2D4EB1AA96A310045EA17 /* mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4C01AA96A310045EA17 /* mars.jpg */; };
+		86F2D4EC1AA96A310045EA17 /* mimas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4C11AA96A310045EA17 /* mimas.jpg */; };
+		86F2D4ED1AA96A310045EA17 /* miranda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4C21AA96A310045EA17 /* miranda.jpg */; };
+		86F2D4EE1AA96A310045EA17 /* moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4C31AA96A310045EA17 /* moon.jpg */; };
+		86F2D4EF1AA96A310045EA17 /* oberon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4C41AA96A310045EA17 /* oberon.jpg */; };
+		86F2D4F01AA96A310045EA17 /* phobos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4C51AA96A310045EA17 /* phobos.jpg */; };
+		86F2D4F11AA96A310045EA17 /* pluto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4C61AA96A310045EA17 /* pluto.jpg */; };
+		86F2D4F21AA96A310045EA17 /* red-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4C71AA96A310045EA17 /* red-btn.png */; };
+		86F2D4F31AA96A310045EA17 /* rhea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4C81AA96A310045EA17 /* rhea.jpg */; };
+		86F2D4F41AA96A310045EA17 /* saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4C91AA96A310045EA17 /* saturn.jpg */; };
+		86F2D4F51AA96A310045EA17 /* spaceship-gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4CA1AA96A310045EA17 /* spaceship-gold.png */; };
+		86F2D4F61AA96A310045EA17 /* spaceship-silver.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4CB1AA96A310045EA17 /* spaceship-silver.png */; };
+		86F2D4F71AA96A310045EA17 /* success.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4CC1AA96A310045EA17 /* success.wav */; };
+		86F2D4F81AA96A310045EA17 /* tethys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4CD1AA96A310045EA17 /* tethys.jpg */; };
+		86F2D4F91AA96A310045EA17 /* titan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4CE1AA96A310045EA17 /* titan.jpg */; };
+		86F2D4FA1AA96A310045EA17 /* titania.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4CF1AA96A310045EA17 /* titania.jpg */; };
+		86F2D4FB1AA96A310045EA17 /* triton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4D01AA96A310045EA17 /* triton.jpg */; };
+		86F2D4FC1AA96A310045EA17 /* umbriel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D4D11AA96A310045EA17 /* umbriel.jpg */; };
+		86F2D4FF1AA96C7E0045EA17 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4FE1AA96C7E0045EA17 /* HomeViewController.m */; };
+		86F2D5021AA96CD30045EA17 /* NewRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D5011AA96CD30045EA17 /* NewRunViewController.m */; };
+		C6539B4BE4ABBA439B0599A6 /* libPods-moonrunnerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A935EBAA984C0082B17BDECB /* libPods-moonrunnerTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86F2D48F1AA959200045EA17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86F2D4671AA959200045EA17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86F2D46E1AA959200045EA17;
+			remoteInfo = moonrunner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59530221457B2F9B84104F9D /* Pods-moonrunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonrunnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		7753FF887C6487C6B58FEB18 /* Pods-moonrunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonrunnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		864D25A51AAE5054006733FD /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MathController.h; path = moonrunner/MathController.h; sourceTree = "<group>"; };
+		864D25A61AAE5054006733FD /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MathController.m; path = moonrunner/MathController.m; sourceTree = "<group>"; };
+		864D25A81AAE5351006733FD /* MathControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MathControllerSpec.mm; path = moonrunnerTests/MathControllerSpec.mm; sourceTree = "<group>"; };
+		86F2D46F1AA959200045EA17 /* moonrunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moonrunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F2D4731AA959200045EA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F2D4741AA959200045EA17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86F2D4761AA959200045EA17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86F2D4771AA959200045EA17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86F2D47A1AA959200045EA17 /* moonrunner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = moonrunner.xcdatamodel; sourceTree = "<group>"; };
+		86F2D47F1AA959200045EA17 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		86F2D4801AA959200045EA17 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		86F2D4831AA959200045EA17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86F2D4851AA959200045EA17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86F2D4881AA959200045EA17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		86F2D48E1AA959200045EA17 /* moonrunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moonrunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F2D4931AA959200045EA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F2D4941AA959200045EA17 /* moonrunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moonrunnerTests.m; sourceTree = "<group>"; };
+		86F2D49E1AA95A7B0045EA17 /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		86F2D49F1AA95A7B0045EA17 /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
+		86F2D4A11AA95A7C0045EA17 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		86F2D4A21AA95A7C0045EA17 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		86F2D4A41AA95AC00045EA17 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		86F2D4A71AA96A310045EA17 /* ariel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ariel.jpg; sourceTree = "<group>"; };
+		86F2D4A81AA96A310045EA17 /* asteroid_belt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid_belt.png; sourceTree = "<group>"; };
+		86F2D4A91AA96A310045EA17 /* atmosphere.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = atmosphere.jpg; sourceTree = "<group>"; };
+		86F2D4AA1AA96A310045EA17 /* badges.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = badges.txt; sourceTree = "<group>"; };
+		86F2D4AB1AA96A310045EA17 /* blue-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-btn.png"; sourceTree = "<group>"; };
+		86F2D4AC1AA96A310045EA17 /* callisto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = callisto.jpg; sourceTree = "<group>"; };
+		86F2D4AD1AA96A310045EA17 /* ceres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ceres.jpg; sourceTree = "<group>"; };
+		86F2D4AE1AA96A310045EA17 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		86F2D4AF1AA96A310045EA17 /* deimos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deimos.jpg; sourceTree = "<group>"; };
+		86F2D4B01AA96A310045EA17 /* dione.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dione.jpg; sourceTree = "<group>"; };
+		86F2D4B11AA96A310045EA17 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		86F2D4B21AA96A310045EA17 /* enceladus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = enceladus.jpg; sourceTree = "<group>"; };
+		86F2D4B31AA96A310045EA17 /* europa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = europa.jpg; sourceTree = "<group>"; };
+		86F2D4B41AA96A310045EA17 /* ganymede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ganymede.jpg; sourceTree = "<group>"; };
+		86F2D4B51AA96A310045EA17 /* green-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-btn.png"; sourceTree = "<group>"; };
+		86F2D4B61AA96A310045EA17 /* iapetus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iapetus.jpg; sourceTree = "<group>"; };
+		86F2D4B71AA96A310045EA17 /* Icon-App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App.png"; sourceTree = "<group>"; };
+		86F2D4B81AA96A310045EA17 /* Icon-Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Settings.png"; sourceTree = "<group>"; };
+		86F2D4B91AA96A310045EA17 /* Icon-Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight.png"; sourceTree = "<group>"; };
+		86F2D4BA1AA96A310045EA17 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		86F2D4BB1AA96A310045EA17 /* interstellar_space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = interstellar_space.jpg; sourceTree = "<group>"; };
+		86F2D4BC1AA96A310045EA17 /* io.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = io.jpg; sourceTree = "<group>"; };
+		86F2D4BD1AA96A310045EA17 /* kuiper_belt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuiper_belt.png; sourceTree = "<group>"; };
+		86F2D4BE1AA96A310045EA17 /* magnetotail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnetotail.png; sourceTree = "<group>"; };
+		86F2D4BF1AA96A310045EA17 /* mapPin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapPin@2x.png"; sourceTree = "<group>"; };
+		86F2D4C01AA96A310045EA17 /* mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars.jpg; sourceTree = "<group>"; };
+		86F2D4C11AA96A310045EA17 /* mimas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mimas.jpg; sourceTree = "<group>"; };
+		86F2D4C21AA96A310045EA17 /* miranda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miranda.jpg; sourceTree = "<group>"; };
+		86F2D4C31AA96A310045EA17 /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moon.jpg; sourceTree = "<group>"; };
+		86F2D4C41AA96A310045EA17 /* oberon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oberon.jpg; sourceTree = "<group>"; };
+		86F2D4C51AA96A310045EA17 /* phobos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phobos.jpg; sourceTree = "<group>"; };
+		86F2D4C61AA96A310045EA17 /* pluto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pluto.jpg; sourceTree = "<group>"; };
+		86F2D4C71AA96A310045EA17 /* red-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-btn.png"; sourceTree = "<group>"; };
+		86F2D4C81AA96A310045EA17 /* rhea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rhea.jpg; sourceTree = "<group>"; };
+		86F2D4C91AA96A310045EA17 /* saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saturn.jpg; sourceTree = "<group>"; };
+		86F2D4CA1AA96A310045EA17 /* spaceship-gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spaceship-gold.png"; sourceTree = "<group>"; };
+		86F2D4CB1AA96A310045EA17 /* spaceship-silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spaceship-silver.png"; sourceTree = "<group>"; };
+		86F2D4CC1AA96A310045EA17 /* success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success.wav; sourceTree = "<group>"; };
+		86F2D4CD1AA96A310045EA17 /* tethys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tethys.jpg; sourceTree = "<group>"; };
+		86F2D4CE1AA96A310045EA17 /* titan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = titan.jpg; sourceTree = "<group>"; };
+		86F2D4CF1AA96A310045EA17 /* titania.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = titania.jpg; sourceTree = "<group>"; };
+		86F2D4D01AA96A310045EA17 /* triton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = triton.jpg; sourceTree = "<group>"; };
+		86F2D4D11AA96A310045EA17 /* umbriel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbriel.jpg; sourceTree = "<group>"; };
+		86F2D4FD1AA96C7E0045EA17 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		86F2D4FE1AA96C7E0045EA17 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		86F2D5001AA96CD30045EA17 /* NewRunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRunViewController.h; sourceTree = "<group>"; };
+		86F2D5011AA96CD30045EA17 /* NewRunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRunViewController.m; sourceTree = "<group>"; };
+		A935EBAA984C0082B17BDECB /* libPods-moonrunnerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonrunnerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86F2D46C1AA959200045EA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F2D4A51AA95AC00045EA17 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F2D48B1AA959200045EA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6539B4BE4ABBA439B0599A6 /* libPods-moonrunnerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86F2D4661AA959200045EA17 = {
+			isa = PBXGroup;
+			children = (
+				864D25A51AAE5054006733FD /* MathController.h */,
+				864D25A61AAE5054006733FD /* MathController.m */,
+				864D25A81AAE5351006733FD /* MathControllerSpec.mm */,
+				86F2D4A41AA95AC00045EA17 /* MapKit.framework */,
+				86F2D4711AA959200045EA17 /* moonrunner */,
+				86F2D4911AA959200045EA17 /* moonrunnerTests */,
+				86F2D4701AA959200045EA17 /* Products */,
+				86F2D4A61AA96A310045EA17 /* moonrunner_resources */,
+				947B2E30F49CBF76F26FF70F /* Pods */,
+				9465C47C14F84175B34D93CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86F2D4701AA959200045EA17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86F2D46F1AA959200045EA17 /* moonrunner.app */,
+				86F2D48E1AA959200045EA17 /* moonrunnerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86F2D4711AA959200045EA17 /* moonrunner */ = {
+			isa = PBXGroup;
+			children = (
+				86F2D4FD1AA96C7E0045EA17 /* HomeViewController.h */,
+				86F2D4FE1AA96C7E0045EA17 /* HomeViewController.m */,
+				86F2D4761AA959200045EA17 /* AppDelegate.h */,
+				86F2D4771AA959200045EA17 /* AppDelegate.m */,
+				86F2D5001AA96CD30045EA17 /* NewRunViewController.h */,
+				86F2D5011AA96CD30045EA17 /* NewRunViewController.m */,
+				86F2D47F1AA959200045EA17 /* DetailViewController.h */,
+				86F2D4801AA959200045EA17 /* DetailViewController.m */,
+				86F2D4821AA959200045EA17 /* Main.storyboard */,
+				86F2D4851AA959200045EA17 /* Images.xcassets */,
+				86F2D4871AA959200045EA17 /* LaunchScreen.xib */,
+				86F2D4791AA959200045EA17 /* moonrunner.xcdatamodeld */,
+				86F2D4A11AA95A7C0045EA17 /* Location.h */,
+				86F2D4A21AA95A7C0045EA17 /* Location.m */,
+				86F2D49E1AA95A7B0045EA17 /* Run.h */,
+				86F2D49F1AA95A7B0045EA17 /* Run.m */,
+				86F2D4721AA959200045EA17 /* Supporting Files */,
+			);
+			path = moonrunner;
+			sourceTree = "<group>";
+		};
+		86F2D4721AA959200045EA17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86F2D4731AA959200045EA17 /* Info.plist */,
+				86F2D4741AA959200045EA17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86F2D4911AA959200045EA17 /* moonrunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				86F2D4941AA959200045EA17 /* moonrunnerTests.m */,
+				86F2D4921AA959200045EA17 /* Supporting Files */,
+			);
+			path = moonrunnerTests;
+			sourceTree = "<group>";
+		};
+		86F2D4921AA959200045EA17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86F2D4931AA959200045EA17 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86F2D4A61AA96A310045EA17 /* moonrunner_resources */ = {
+			isa = PBXGroup;
+			children = (
+				86F2D4A71AA96A310045EA17 /* ariel.jpg */,
+				86F2D4A81AA96A310045EA17 /* asteroid_belt.png */,
+				86F2D4A91AA96A310045EA17 /* atmosphere.jpg */,
+				86F2D4AA1AA96A310045EA17 /* badges.txt */,
+				86F2D4AB1AA96A310045EA17 /* blue-btn.png */,
+				86F2D4AC1AA96A310045EA17 /* callisto.jpg */,
+				86F2D4AD1AA96A310045EA17 /* ceres.jpg */,
+				86F2D4AE1AA96A310045EA17 /* Default-568h@2x.png */,
+				86F2D4AF1AA96A310045EA17 /* deimos.jpg */,
+				86F2D4B01AA96A310045EA17 /* dione.jpg */,
+				86F2D4B11AA96A310045EA17 /* earth.jpg */,
+				86F2D4B21AA96A310045EA17 /* enceladus.jpg */,
+				86F2D4B31AA96A310045EA17 /* europa.jpg */,
+				86F2D4B41AA96A310045EA17 /* ganymede.jpg */,
+				86F2D4B51AA96A310045EA17 /* green-btn.png */,
+				86F2D4B61AA96A310045EA17 /* iapetus.jpg */,
+				86F2D4B71AA96A310045EA17 /* Icon-App.png */,
+				86F2D4B81AA96A310045EA17 /* Icon-Settings.png */,
+				86F2D4B91AA96A310045EA17 /* Icon-Spotlight.png */,
+				86F2D4BA1AA96A310045EA17 /* info@2x.png */,
+				86F2D4BB1AA96A310045EA17 /* interstellar_space.jpg */,
+				86F2D4BC1AA96A310045EA17 /* io.jpg */,
+				86F2D4BD1AA96A310045EA17 /* kuiper_belt.png */,
+				86F2D4BE1AA96A310045EA17 /* magnetotail.png */,
+				86F2D4BF1AA96A310045EA17 /* mapPin@2x.png */,
+				86F2D4C01AA96A310045EA17 /* mars.jpg */,
+				86F2D4C11AA96A310045EA17 /* mimas.jpg */,
+				86F2D4C21AA96A310045EA17 /* miranda.jpg */,
+				86F2D4C31AA96A310045EA17 /* moon.jpg */,
+				86F2D4C41AA96A310045EA17 /* oberon.jpg */,
+				86F2D4C51AA96A310045EA17 /* phobos.jpg */,
+				86F2D4C61AA96A310045EA17 /* pluto.jpg */,
+				86F2D4C71AA96A310045EA17 /* red-btn.png */,
+				86F2D4C81AA96A310045EA17 /* rhea.jpg */,
+				86F2D4C91AA96A310045EA17 /* saturn.jpg */,
+				86F2D4CA1AA96A310045EA17 /* spaceship-gold.png */,
+				86F2D4CB1AA96A310045EA17 /* spaceship-silver.png */,
+				86F2D4CC1AA96A310045EA17 /* success.wav */,
+				86F2D4CD1AA96A310045EA17 /* tethys.jpg */,
+				86F2D4CE1AA96A310045EA17 /* titan.jpg */,
+				86F2D4CF1AA96A310045EA17 /* titania.jpg */,
+				86F2D4D01AA96A310045EA17 /* triton.jpg */,
+				86F2D4D11AA96A310045EA17 /* umbriel.jpg */,
+			);
+			path = moonrunner_resources;
+			sourceTree = "<group>";
+		};
+		9465C47C14F84175B34D93CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A935EBAA984C0082B17BDECB /* libPods-moonrunnerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		947B2E30F49CBF76F26FF70F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7753FF887C6487C6B58FEB18 /* Pods-moonrunnerTests.debug.xcconfig */,
+				59530221457B2F9B84104F9D /* Pods-moonrunnerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86F2D46E1AA959200045EA17 /* moonrunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F2D4981AA959200045EA17 /* Build configuration list for PBXNativeTarget "moonrunner" */;
+			buildPhases = (
+				86F2D46B1AA959200045EA17 /* Sources */,
+				86F2D46C1AA959200045EA17 /* Frameworks */,
+				86F2D46D1AA959200045EA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moonrunner;
+			productName = moonrunner;
+			productReference = 86F2D46F1AA959200045EA17 /* moonrunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86F2D48D1AA959200045EA17 /* moonrunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F2D49B1AA959200045EA17 /* Build configuration list for PBXNativeTarget "moonrunnerTests" */;
+			buildPhases = (
+				A9B83DD5229C38E0063FABBF /* Check Pods Manifest.lock */,
+				86F2D48A1AA959200045EA17 /* Sources */,
+				86F2D48B1AA959200045EA17 /* Frameworks */,
+				86F2D48C1AA959200045EA17 /* Resources */,
+				252F90D223D22FDD7A7A8C05 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86F2D4901AA959200045EA17 /* PBXTargetDependency */,
+			);
+			name = moonrunnerTests;
+			productName = moonrunnerTests;
+			productReference = 86F2D48E1AA959200045EA17 /* moonrunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86F2D4671AA959200045EA17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = g9Labs;
+				TargetAttributes = {
+					86F2D46E1AA959200045EA17 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					86F2D48D1AA959200045EA17 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 86F2D46E1AA959200045EA17;
+					};
+				};
+			};
+			buildConfigurationList = 86F2D46A1AA959200045EA17 /* Build configuration list for PBXProject "moonrunner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86F2D4661AA959200045EA17;
+			productRefGroup = 86F2D4701AA959200045EA17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86F2D46E1AA959200045EA17 /* moonrunner */,
+				86F2D48D1AA959200045EA17 /* moonrunnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86F2D46D1AA959200045EA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F2D4E71AA96A310045EA17 /* io.jpg in Resources */,
+				86F2D4D81AA96A310045EA17 /* ceres.jpg in Resources */,
+				86F2D4F01AA96A310045EA17 /* phobos.jpg in Resources */,
+				86F2D4D91AA96A310045EA17 /* Default-568h@2x.png in Resources */,
+				86F2D4ED1AA96A310045EA17 /* miranda.jpg in Resources */,
+				86F2D4D61AA96A310045EA17 /* blue-btn.png in Resources */,
+				86F2D4F21AA96A310045EA17 /* red-btn.png in Resources */,
+				86F2D4E91AA96A310045EA17 /* magnetotail.png in Resources */,
+				86F2D4F31AA96A310045EA17 /* rhea.jpg in Resources */,
+				86F2D4841AA959200045EA17 /* Main.storyboard in Resources */,
+				86F2D4D51AA96A310045EA17 /* badges.txt in Resources */,
+				86F2D4DE1AA96A310045EA17 /* europa.jpg in Resources */,
+				86F2D4DF1AA96A310045EA17 /* ganymede.jpg in Resources */,
+				86F2D4D41AA96A310045EA17 /* atmosphere.jpg in Resources */,
+				86F2D4D21AA96A310045EA17 /* ariel.jpg in Resources */,
+				86F2D4891AA959200045EA17 /* LaunchScreen.xib in Resources */,
+				86F2D4E11AA96A310045EA17 /* iapetus.jpg in Resources */,
+				86F2D4F91AA96A310045EA17 /* titan.jpg in Resources */,
+				86F2D4E41AA96A310045EA17 /* Icon-Spotlight.png in Resources */,
+				86F2D4E01AA96A310045EA17 /* green-btn.png in Resources */,
+				86F2D4FA1AA96A310045EA17 /* titania.jpg in Resources */,
+				86F2D4FB1AA96A310045EA17 /* triton.jpg in Resources */,
+				86F2D4EE1AA96A310045EA17 /* moon.jpg in Resources */,
+				86F2D4D71AA96A310045EA17 /* callisto.jpg in Resources */,
+				86F2D4EF1AA96A310045EA17 /* oberon.jpg in Resources */,
+				86F2D4F81AA96A310045EA17 /* tethys.jpg in Resources */,
+				86F2D4FC1AA96A310045EA17 /* umbriel.jpg in Resources */,
+				86F2D4861AA959200045EA17 /* Images.xcassets in Resources */,
+				86F2D4DC1AA96A310045EA17 /* earth.jpg in Resources */,
+				86F2D4DD1AA96A310045EA17 /* enceladus.jpg in Resources */,
+				86F2D4E61AA96A310045EA17 /* interstellar_space.jpg in Resources */,
+				86F2D4DA1AA96A310045EA17 /* deimos.jpg in Resources */,
+				86F2D4E31AA96A310045EA17 /* Icon-Settings.png in Resources */,
+				86F2D4DB1AA96A310045EA17 /* dione.jpg in Resources */,
+				86F2D4EC1AA96A310045EA17 /* mimas.jpg in Resources */,
+				86F2D4F71AA96A310045EA17 /* success.wav in Resources */,
+				86F2D4EA1AA96A310045EA17 /* mapPin@2x.png in Resources */,
+				86F2D4F51AA96A310045EA17 /* spaceship-gold.png in Resources */,
+				86F2D4EB1AA96A310045EA17 /* mars.jpg in Resources */,
+				86F2D4F61AA96A310045EA17 /* spaceship-silver.png in Resources */,
+				86F2D4E21AA96A310045EA17 /* Icon-App.png in Resources */,
+				86F2D4D31AA96A310045EA17 /* asteroid_belt.png in Resources */,
+				86F2D4F11AA96A310045EA17 /* pluto.jpg in Resources */,
+				86F2D4E81AA96A310045EA17 /* kuiper_belt.png in Resources */,
+				86F2D4F41AA96A310045EA17 /* saturn.jpg in Resources */,
+				86F2D4E51AA96A310045EA17 /* info@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F2D48C1AA959200045EA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		252F90D223D22FDD7A7A8C05 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B83DD5229C38E0063FABBF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86F2D46B1AA959200045EA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864D25A91AAE5351006733FD /* MathControllerSpec.mm in Sources */,
+				86F2D4811AA959200045EA17 /* DetailViewController.m in Sources */,
+				86F2D4A31AA95A7C0045EA17 /* Location.m in Sources */,
+				864D25A71AAE5054006733FD /* MathController.m in Sources */,
+				86F2D4781AA959200045EA17 /* AppDelegate.m in Sources */,
+				86F2D4A01AA95A7B0045EA17 /* Run.m in Sources */,
+				86F2D4751AA959200045EA17 /* main.m in Sources */,
+				86F2D4FF1AA96C7E0045EA17 /* HomeViewController.m in Sources */,
+				86F2D47B1AA959200045EA17 /* moonrunner.xcdatamodeld in Sources */,
+				86F2D5021AA96CD30045EA17 /* NewRunViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F2D48A1AA959200045EA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F2D4951AA959200045EA17 /* moonrunnerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86F2D4901AA959200045EA17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86F2D46E1AA959200045EA17 /* moonrunner */;
+			targetProxy = 86F2D48F1AA959200045EA17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86F2D4821AA959200045EA17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F2D4831AA959200045EA17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86F2D4871AA959200045EA17 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F2D4881AA959200045EA17 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86F2D4961AA959200045EA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86F2D4971AA959200045EA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86F2D4991AA959200045EA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = moonrunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86F2D49A1AA959200045EA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = moonrunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86F2D49C1AA959200045EA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7753FF887C6487C6B58FEB18 /* Pods-moonrunnerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = moonrunnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moonrunner.app/moonrunner";
+			};
+			name = Debug;
+		};
+		86F2D49D1AA959200045EA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59530221457B2F9B84104F9D /* Pods-moonrunnerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = moonrunnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moonrunner.app/moonrunner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86F2D46A1AA959200045EA17 /* Build configuration list for PBXProject "moonrunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F2D4961AA959200045EA17 /* Debug */,
+				86F2D4971AA959200045EA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F2D4981AA959200045EA17 /* Build configuration list for PBXNativeTarget "moonrunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F2D4991AA959200045EA17 /* Debug */,
+				86F2D49A1AA959200045EA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F2D49B1AA959200045EA17 /* Build configuration list for PBXNativeTarget "moonrunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F2D49C1AA959200045EA17 /* Debug */,
+				86F2D49D1AA959200045EA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86F2D4791AA959200045EA17 /* moonrunner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86F2D47A1AA959200045EA17 /* moonrunner.xcdatamodel */,
+			);
+			currentVersion = 86F2D47A1AA959200045EA17 /* moonrunner.xcdatamodel */;
+			path = moonrunner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86F2D4671AA959200045EA17 /* Project object */;
+}
