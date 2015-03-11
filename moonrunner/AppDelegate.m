@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     //UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
-
+    
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
 
     HomeViewController *controller = (HomeViewController *)navigationController.topViewController;

@@ -39,6 +39,21 @@ static NSString * const detailSegueName = @"RunDetails";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+    // Create the location manager if this object does not
+    // already have one.
+    if (self.locationManager == nil) {
+        self.locationManager = [[CLLocationManager alloc] init];
+    }
+    
+    self.locationManager.delegate = self;
+    
+    CLAuthorizationStatus authStatus = [CLLocationManager authorizationStatus];
+    
+    if (authStatus == kCLAuthorizationStatusNotDetermined) {
+        [self.locationManager requestAlwaysAuthorization];
+        [self.locationManager requestWhenInUseAuthorization];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -98,13 +113,6 @@ static NSString * const detailSegueName = @"RunDetails";
 
 - (void)startLocationUpdates
 {
-    // Create the location manager if this object does not
-    // already have one.
-    if (self.locationManager == nil) {
-        self.locationManager = [[CLLocationManager alloc] init];
-    }
-    
-    self.locationManager.delegate = self;
     self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     self.locationManager.activityType = CLActivityTypeFitness;
     
@@ -128,7 +136,7 @@ static NSString * const detailSegueName = @"RunDetails";
     if (buttonIndex == 0) {
         [self performSegueWithIdentifier:detailSegueName sender:nil];
         
-        // discardd
+    // discard
     } else if (buttonIndex == 1) {
         [self.navigationController popToRootViewControllerAnimated:YES];
     }

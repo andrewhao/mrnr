@@ -212,12 +212,12 @@
                         <outlet property="startButton" destination="kAs-Zz-YzW" id="Ee9-sE-kfh"/>
                         <outlet property="stopButton" destination="Eof-k2-EDq" id="4zR-Ei-c90"/>
                         <outlet property="timeLabel" destination="hsF-YE-jEH" id="Hnj-oW-tfe"/>
-                        <segue destination="20Y-v6-p3p" kind="push" id="GbD-V7-Z6d"/>
+                        <segue destination="20Y-v6-p3p" kind="push" identifier="RunDetails" id="fNn-UT-9Eo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J40-jU-hrq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="303" y="110"/>
+            <point key="canvasLocation" x="285" y="93"/>
         </scene>
         <!--Run Details-->
         <scene sceneID="ZZL-pE-nZN">
@@ -272,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6n7-PX-7im" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="972" y="87"/>
+            <point key="canvasLocation" x="982" y="93"/>
         </scene>
     </scenes>
     <resources>

@@ -15,6 +15,6 @@
 @property (nonatomic, retain) NSDate * timeStamp;
 @property (nonatomic, retain) NSNumber * distance;
 @property (nonatomic, retain) NSNumber * duration;
-@property (nonatomic, retain) NSManagedObject *locations;
+@property (nonatomic, retain) NSOrderedSet *locations;
 
 @end
