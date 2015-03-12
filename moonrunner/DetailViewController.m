@@ -38,7 +38,7 @@
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateStyle:NSDateFormatterMediumStyle];
-    self.dateLabel.text = [formatter stringFromDate:self.run.timeStamp];
+    self.dateLabel.text = [formatter stringFromDate:self.run.timestamp];
     
     self.timeLabel.text = [NSString stringWithFormat:@"Time: %@",  [MathController stringifySecondCount:self.run.duration.intValue usingLongFormat:YES]];
     

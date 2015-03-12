@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 g9Labs. All rights reserved.
 //
 
-
+#import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 #import "MathController.h"
 #import "Location.h"
@@ -77,8 +77,11 @@ static NSString * const detailSegueName = @"RunDetails";
     self.seconds = 0;
     self.distance = 0;
     self.locations = [NSMutableArray array];
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:(1.0) target:self
-                                                selector:@selector(eachSecond) userInfo:nil repeats:YES];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:(1.0)
+                                                  target:self
+                                                selector:@selector(eachSecond)
+                                                userInfo:nil
+                                                 repeats:YES];
     [self startLocationUpdates];
 }
 
@@ -132,8 +135,11 @@ static NSString * const detailSegueName = @"RunDetails";
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
+    [self.locationManager stopUpdatingLocation];
+    
     // save
     if (buttonIndex == 0) {
+        [self saveRun];
         [self performSegueWithIdentifier:detailSegueName sender:nil];
         
     // discard
@@ -158,6 +164,8 @@ static NSString * const detailSegueName = @"RunDetails";
                 self.distance += [newLocation distanceFromLocation:self.locations.lastObject];
             }
             
+            NSLog(@"Adding new location: %@", newLocation);
+            
             [self.locations addObject:newLocation];
         }
     }
@@ -170,7 +178,8 @@ static NSString * const detailSegueName = @"RunDetails";
     
     newRun.distance = [NSNumber numberWithFloat:self.distance];
     newRun.duration = [NSNumber numberWithInt:self.seconds];
-    newRun.timeStamp = [NSDate date];
+    newRun.timestamp = [NSDate date];
+//    newRun.locations = [NSMutableOrderedSet orderedSetWithCapacity:1];
     
     NSMutableArray *locationArray = [NSMutableArray array];
     for (CLLocation *location in self.locations) {
@@ -181,9 +190,13 @@ static NSString * const detailSegueName = @"RunDetails";
         locationObject.latitude = [NSNumber numberWithDouble:location.coordinate.latitude];
         locationObject.longitude = [NSNumber numberWithDouble:location.coordinate.longitude];
         [locationArray addObject:locationObject];
+//        [newRun.locations addObject:locationObject];
     }
+//    NSOrderedSet *set = [NSOrderedSet orderedSetWithArray:(NSArray *)locationArray];
+
+    NSOrderedSet *set = [NSOrderedSet orderedSetWithArray:locationArray];
+    [newRun setValue:set forKey:@"locations"];
     
-    newRun.locations = [NSOrderedSet orderedSetWithArray:locationArray];
     self.run = newRun;
     
     // Save the context.

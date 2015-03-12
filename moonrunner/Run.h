@@ -12,7 +12,7 @@
 
 @interface Run : NSManagedObject
 
-@property (nonatomic, retain) NSDate * timeStamp;
+@property (nonatomic, retain) NSDate * timestamp;
 @property (nonatomic, retain) NSNumber * distance;
 @property (nonatomic, retain) NSNumber * duration;
 @property (nonatomic, retain) NSOrderedSet *locations;
