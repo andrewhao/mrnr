@@ -29,6 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.mapView.delegate = self;
     [self configureView];
 }
 
