@@ -67,6 +67,7 @@
 		86F2D4FF1AA96C7E0045EA17 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4FE1AA96C7E0045EA17 /* HomeViewController.m */; };
 		86F2D5021AA96CD30045EA17 /* NewRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D5011AA96CD30045EA17 /* NewRunViewController.m */; };
 		BFB666CBC8B3E343AEE0157E /* libPods-moonrunnerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02075B5FA5254BDEB1000BC0 /* libPods-moonrunnerTests.a */; };
+		DF01BA5A4AB8829D32EFA228 /* libPods-moonrunner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8A5CBD116D61A99200B3B5 /* libPods-moonrunner.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,8 +82,10 @@
 
 /* Begin PBXFileReference section */
 		02075B5FA5254BDEB1000BC0 /* libPods-moonrunnerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonrunnerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8A5CBD116D61A99200B3B5 /* libPods-moonrunner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonrunner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC71C61C6EBA408B8659E2E /* Pods-moonrunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonrunnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		575D5099CE92F4137F9EB853 /* Pods-moonrunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonrunnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D30B864113BE5057373FB03 /* Pods-moonrunner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonrunner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moonrunner/Pods-moonrunner.debug.xcconfig"; sourceTree = "<group>"; };
 		8649B6E01AB4D4C8009AF977 /* MulticolorPolylineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticolorPolylineSegment.h; sourceTree = "<group>"; };
 		8649B6E11AB4D4C8009AF977 /* MulticolorPolylineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticolorPolylineSegment.m; sourceTree = "<group>"; };
 		8689F5BC1AAE979800910B37 /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathController.h; sourceTree = "<group>"; };
@@ -154,6 +157,7 @@
 		86F2D4FE1AA96C7E0045EA17 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		86F2D5001AA96CD30045EA17 /* NewRunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRunViewController.h; sourceTree = "<group>"; };
 		86F2D5011AA96CD30045EA17 /* NewRunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRunViewController.m; sourceTree = "<group>"; };
+		8E20D70DDFFD15353D3CECCA /* Pods-moonrunner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonrunner.release.xcconfig"; path = "Pods/Target Support Files/Pods-moonrunner/Pods-moonrunner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86F2D4A51AA95AC00045EA17 /* MapKit.framework in Frameworks */,
+				DF01BA5A4AB8829D32EFA228 /* libPods-moonrunner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				02075B5FA5254BDEB1000BC0 /* libPods-moonrunnerTests.a */,
+				1D8A5CBD116D61A99200B3B5 /* libPods-moonrunner.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -316,6 +322,8 @@
 			children = (
 				4AC71C61C6EBA408B8659E2E /* Pods-moonrunnerTests.debug.xcconfig */,
 				575D5099CE92F4137F9EB853 /* Pods-moonrunnerTests.release.xcconfig */,
+				6D30B864113BE5057373FB03 /* Pods-moonrunner.debug.xcconfig */,
+				8E20D70DDFFD15353D3CECCA /* Pods-moonrunner.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -327,9 +335,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86F2D4981AA959200045EA17 /* Build configuration list for PBXNativeTarget "moonrunner" */;
 			buildPhases = (
+				6B3AF8A5CAB9BC575E9AC334 /* Check Pods Manifest.lock */,
 				86F2D46B1AA959200045EA17 /* Sources */,
 				86F2D46C1AA959200045EA17 /* Frameworks */,
 				86F2D46D1AA959200045EA17 /* Resources */,
+				4CE04AF7BEEB760DB2D425DE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -467,6 +477,36 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		10A6E6390E16244DDD4C0113 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CE04AF7BEEB760DB2D425DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moonrunner/Pods-moonrunner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3AF8A5CAB9BC575E9AC334 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -635,6 +675,7 @@
 		};
 		86F2D4991AA959200045EA17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D30B864113BE5057373FB03 /* Pods-moonrunner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = moonrunner/Info.plist;
@@ -645,6 +686,7 @@
 		};
 		86F2D49A1AA959200045EA17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E20D70DDFFD15353D3CECCA /* Pods-moonrunner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = moonrunner/Info.plist;

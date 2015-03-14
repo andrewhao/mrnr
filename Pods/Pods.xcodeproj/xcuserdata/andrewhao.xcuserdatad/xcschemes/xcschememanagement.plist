@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-moonrunner-EstimoteSDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-moonrunner.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-moonrunnerTests-Expecta.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3DF3EE6E6FBA922ADFC75E58</key>
+		<key>1721BB59C0B6EF6E2766DC17</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>42F11475E3961D4D1216F98C</key>
+		<key>55F16B55F9F3D12CDF2DCCA4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6563C38302118E2692A1E83A</key>
+		<key>574C020931BE21BFC54EAEE3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E94D0072FA835854A54344AF</key>
+		<key>6FDE93DEB77DA70FB8EB7365</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B96AD11F89621958E9F02B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA29A0BB3073E7DA8CBCEE3B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,14 +1,17 @@
 PODS:
+  - EstimoteSDK (2.4.0)
   - Expecta (0.3.2)
   - OCMock (2.2.4)
   - Specta (0.3.2)
 
 DEPENDENCIES:
+  - EstimoteSDK
   - Expecta (~> 0.3)
   - OCMock (~> 2.2)
   - Specta (~> 0.3)
 
 SPEC CHECKSUMS:
+  EstimoteSDK: 6abcf32ed821e6669cf75d62457dded2c0951e7f
   Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
   OCMock: 6db79185520e24f9f299548f2b8b07e41d881bd5
   Specta: 698a58ffa5ec948327d3b92eab50ca58d7f4fbe8

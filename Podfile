@@ -2,7 +2,7 @@
 # platform :ios, '6.0'
 
 target 'moonrunner' do
-
+  pod 'EstimoteSDK'
 end
 
 target 'moonrunnerTests' do

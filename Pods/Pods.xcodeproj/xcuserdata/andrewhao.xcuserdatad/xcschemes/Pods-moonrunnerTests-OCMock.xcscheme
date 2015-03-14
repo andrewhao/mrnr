@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3DF3EE6E6FBA922ADFC75E58"
+               BlueprintIdentifier = "574C020931BE21BFC54EAEE3"
                BuildableName = "libPods-moonrunnerTests-OCMock.a"
                BlueprintName = "Pods-moonrunnerTests-OCMock"
                ReferencedContainer = "container:Pods.xcodeproj">
