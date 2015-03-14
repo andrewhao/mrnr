@@ -3,6 +3,8 @@
 #import "MathController.h"
 #import "Location.h"
 #import "Run.h"
+#import "MulticolorPolylineSegment.h"
+
 
 @interface DetailViewController () <MKMapViewDelegate>
 
@@ -84,10 +86,10 @@
 
 - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id < MKOverlay >)overlay
 {
-    if ([overlay isKindOfClass:[MKPolyline class]]) {
-        MKPolyline *polyLine = (MKPolyline *)overlay;
+    if ([overlay isKindOfClass:[MulticolorPolylineSegment class]]) {
+        MulticolorPolylineSegment *polyLine = (MulticolorPolylineSegment *)overlay;
         MKPolylineRenderer *aRenderer = [[MKPolylineRenderer alloc] initWithPolyline:polyLine];
-        aRenderer.strokeColor = [UIColor blackColor];
+        aRenderer.strokeColor = polyLine.color;
         aRenderer.lineWidth = 3;
         return aRenderer;
     }
@@ -116,9 +118,10 @@
         // set the map bounds
         [self.mapView setRegion:[self mapRegion]];
         
-        // make the line(s!) on the map
-        [self.mapView addOverlay:[self polyLine]];
-        
+
+        NSArray *colorSegmentArray = [MathController colorSegmentsForLocations:self.run.locations.array];
+        [self.mapView addOverlays:colorSegmentArray];
+
     } else {
         
         // no locations were found!

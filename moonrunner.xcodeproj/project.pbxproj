@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8649B6E21AB4D4C8009AF977 /* MulticolorPolylineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8649B6E11AB4D4C8009AF977 /* MulticolorPolylineSegment.m */; };
 		8689F5BE1AAE979800910B37 /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8689F5BD1AAE979800910B37 /* MathController.m */; };
 		8689F5C01AAE98BC00910B37 /* MathControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8689F5BF1AAE98BC00910B37 /* MathControllerTest.m */; };
 		86F2D4751AA959200045EA17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4741AA959200045EA17 /* main.m */; };
@@ -82,6 +83,8 @@
 		02075B5FA5254BDEB1000BC0 /* libPods-moonrunnerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonrunnerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC71C61C6EBA408B8659E2E /* Pods-moonrunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonrunnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		575D5099CE92F4137F9EB853 /* Pods-moonrunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonrunnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-moonrunnerTests/Pods-moonrunnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		8649B6E01AB4D4C8009AF977 /* MulticolorPolylineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticolorPolylineSegment.h; sourceTree = "<group>"; };
+		8649B6E11AB4D4C8009AF977 /* MulticolorPolylineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticolorPolylineSegment.m; sourceTree = "<group>"; };
 		8689F5BC1AAE979800910B37 /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathController.h; sourceTree = "<group>"; };
 		8689F5BD1AAE979800910B37 /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathController.m; sourceTree = "<group>"; };
 		8689F5BF1AAE98BC00910B37 /* MathControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathControllerTest.m; sourceTree = "<group>"; };
@@ -206,6 +209,8 @@
 		86F2D4711AA959200045EA17 /* moonrunner */ = {
 			isa = PBXGroup;
 			children = (
+				8649B6E01AB4D4C8009AF977 /* MulticolorPolylineSegment.h */,
+				8649B6E11AB4D4C8009AF977 /* MulticolorPolylineSegment.m */,
 				8689F5BC1AAE979800910B37 /* MathController.h */,
 				8689F5BD1AAE979800910B37 /* MathController.m */,
 				86F2D4FD1AA96C7E0045EA17 /* HomeViewController.h */,
@@ -501,6 +506,7 @@
 				86F2D4811AA959200045EA17 /* DetailViewController.m in Sources */,
 				86F2D4A31AA95A7C0045EA17 /* Location.m in Sources */,
 				8689F5BE1AAE979800910B37 /* MathController.m in Sources */,
+				8649B6E21AB4D4C8009AF977 /* MulticolorPolylineSegment.m in Sources */,
 				86F2D4781AA959200045EA17 /* AppDelegate.m in Sources */,
 				86F2D4A01AA95A7B0045EA17 /* Run.m in Sources */,
 				86F2D4751AA959200045EA17 /* main.m in Sources */,
