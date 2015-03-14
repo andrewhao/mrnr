@@ -175,16 +175,22 @@
                                     <action selector="stopPressed:" destination="3a7-hl-f83" eventType="touchUpInside" id="d6p-8u-meX"/>
                                 </connections>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vqa-8L-gxL">
+                                <rect key="frame" x="180" y="64" width="404" height="254"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerY" secondItem="vqa-8L-gxL" secondAttribute="centerY" constant="109" id="1AZ-M9-5NZ"/>
                             <constraint firstItem="v6p-z0-6ng" firstAttribute="centerX" secondItem="Me1-qp-TKc" secondAttribute="centerX" id="1O5-mU-NaZ"/>
                             <constraint firstItem="kAs-Zz-YzW" firstAttribute="centerX" secondItem="v6p-z0-6ng" secondAttribute="centerX" id="2UF-fK-gLz"/>
                             <constraint firstItem="hsF-YE-jEH" firstAttribute="trailing" secondItem="aGv-eM-JOa" secondAttribute="trailing" id="3qZ-Qo-VyT"/>
                             <constraint firstItem="hsF-YE-jEH" firstAttribute="leading" secondItem="y26-Z6-GIH" secondAttribute="leading" id="AFv-hz-A68"/>
                             <constraint firstItem="Eof-k2-EDq" firstAttribute="top" secondItem="kAs-Zz-YzW" secondAttribute="bottom" constant="15" id="BTx-Jy-Bf3"/>
                             <constraint firstItem="kAs-Zz-YzW" firstAttribute="centerX" secondItem="Eof-k2-EDq" secondAttribute="centerX" id="CQO-d7-L4Z"/>
+                            <constraint firstItem="vqa-8L-gxL" firstAttribute="trailing" secondItem="Me1-qp-TKc" secondAttribute="trailingMargin" id="IVD-fC-OyL"/>
                             <constraint firstItem="hsF-YE-jEH" firstAttribute="top" secondItem="aGv-eM-JOa" secondAttribute="bottom" constant="37" id="MNV-R8-Q5C"/>
+                            <constraint firstItem="vqa-8L-gxL" firstAttribute="top" secondItem="MCx-YH-npv" secondAttribute="bottom" id="P0V-MI-axT"/>
                             <constraint firstItem="80z-Zk-Tyq" firstAttribute="top" secondItem="y26-Z6-GIH" secondAttribute="bottom" constant="299" id="Sf0-KJ-tTy"/>
                             <constraint firstItem="80z-Zk-Tyq" firstAttribute="top" secondItem="Eof-k2-EDq" secondAttribute="bottom" constant="42" id="Xno-oB-IQO"/>
                             <constraint firstAttribute="width" secondItem="v6p-z0-6ng" secondAttribute="width" id="aQU-iZ-kek"/>
@@ -194,6 +200,7 @@
                             <constraint firstAttribute="centerY" secondItem="kAs-Zz-YzW" secondAttribute="centerY" constant="100" id="jot-7i-cSq"/>
                             <constraint firstItem="v6p-z0-6ng" firstAttribute="top" secondItem="MCx-YH-npv" secondAttribute="bottom" constant="179" id="prj-n3-rMd"/>
                             <constraint firstItem="hsF-YE-jEH" firstAttribute="leading" secondItem="aGv-eM-JOa" secondAttribute="leading" id="t2F-ZE-YuV"/>
+                            <constraint firstAttribute="centerX" secondItem="vqa-8L-gxL" secondAttribute="centerX" constant="-82" id="xGL-e6-P3g"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -207,6 +214,7 @@
                     <navigationItem key="navigationItem" id="SZz-1v-3fn"/>
                     <connections>
                         <outlet property="distLabel" destination="aGv-eM-JOa" id="p90-YB-eef"/>
+                        <outlet property="mapView" destination="vqa-8L-gxL" id="zc9-Uq-wPf"/>
                         <outlet property="paceLabel" destination="y26-Z6-GIH" id="NRB-jp-eRG"/>
                         <outlet property="promptLabel" destination="v6p-z0-6ng" id="0Ys-Xs-PNF"/>
                         <outlet property="startButton" destination="kAs-Zz-YzW" id="Ee9-sE-kfh"/>
@@ -250,7 +258,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iz4-9o-isG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iz4-9o-isG">
                                 <rect key="frame" x="135" y="493" width="38" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
