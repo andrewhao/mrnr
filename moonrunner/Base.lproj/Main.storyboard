@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="j7h-kj-WRN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="j7h-kj-WRN">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -72,6 +73,24 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Beacon distance:" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Gu-zu-GGd">
+                                <rect key="frame" x="227" y="469" width="134" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0B-4J-8Eh">
+                                <rect key="frame" x="241" y="417" width="118" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Osz-6d-R1h"/>
+                                </constraints>
+                                <state key="normal" title="Get Region State">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="regionStatePressed:" destination="vhb-pC-QZO" eventType="touchUpInside" id="plh-3u-eiy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -81,22 +100,31 @@
                             <constraint firstItem="Ier-Zp-foa" firstAttribute="leading" secondItem="1XX-rH-uiX" secondAttribute="leading" id="8Rf-Qe-3C1"/>
                             <constraint firstItem="1XX-rH-uiX" firstAttribute="width" secondItem="Fh7-Hq-oCF" secondAttribute="width" constant="-3" id="9hd-ue-MJ1"/>
                             <constraint firstItem="6nn-Zf-5Wx" firstAttribute="top" secondItem="h27-Dg-SeR" secondAttribute="bottom" constant="86" id="9jl-KY-jfX"/>
+                            <constraint firstAttribute="bottom" secondItem="U0B-4J-8Eh" secondAttribute="bottom" constant="153" id="JgE-xs-3uT"/>
                             <constraint firstItem="1XX-rH-uiX" firstAttribute="height" secondItem="Fh7-Hq-oCF" secondAttribute="height" id="SSC-mK-ENG"/>
+                            <constraint firstItem="U0B-4J-8Eh" firstAttribute="top" secondItem="Fh7-Hq-oCF" secondAttribute="bottom" constant="24" id="Svs-sZ-Lcx"/>
                             <constraint firstItem="Ier-Zp-foa" firstAttribute="trailing" secondItem="1XX-rH-uiX" secondAttribute="trailing" id="WfF-vN-1RN"/>
                             <constraint firstItem="1XX-rH-uiX" firstAttribute="top" secondItem="Ier-Zp-foa" secondAttribute="bottom" constant="13" id="XRE-lP-xEe"/>
                             <constraint firstItem="Ier-Zp-foa" firstAttribute="top" secondItem="6nn-Zf-5Wx" secondAttribute="bottom" constant="27" id="XWz-1c-42V"/>
+                            <constraint firstAttribute="centerX" secondItem="1Gu-zu-GGd" secondAttribute="centerX" constant="6" id="d7P-lv-G4a"/>
                             <constraint firstItem="Ier-Zp-foa" firstAttribute="centerY" secondItem="iot-Sq-xb1" secondAttribute="centerY" id="dKv-Bz-G8X"/>
                             <constraint firstItem="Fh7-Hq-oCF" firstAttribute="top" secondItem="1XX-rH-uiX" secondAttribute="bottom" constant="13" id="lPv-Cs-du0"/>
                             <constraint firstItem="6nn-Zf-5Wx" firstAttribute="centerX" secondItem="iot-Sq-xb1" secondAttribute="centerX" id="pvZ-vV-6y8"/>
                             <constraint firstItem="1XX-rH-uiX" firstAttribute="height" secondItem="Ier-Zp-foa" secondAttribute="height" constant="-6" id="rYa-0A-iv7"/>
+                            <constraint firstItem="1Gu-zu-GGd" firstAttribute="top" secondItem="U0B-4J-8Eh" secondAttribute="bottom" constant="22" id="u8h-QR-lrw"/>
+                            <constraint firstItem="U0B-4J-8Eh" firstAttribute="centerX" secondItem="Fh7-Hq-oCF" secondAttribute="centerX" id="vnP-Hw-tr1"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="dKv-Bz-G8X"/>
+                                <exclude reference="JgE-xs-3uT"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Hhz-HA-Pzb"/>
+                    <connections>
+                        <outlet property="distanceLabel" destination="1Gu-zu-GGd" id="bLn-pm-vCa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VbA-hl-rh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -200,6 +228,7 @@
                             <constraint firstAttribute="centerY" secondItem="kAs-Zz-YzW" secondAttribute="centerY" constant="100" id="jot-7i-cSq"/>
                             <constraint firstItem="v6p-z0-6ng" firstAttribute="top" secondItem="MCx-YH-npv" secondAttribute="bottom" constant="179" id="prj-n3-rMd"/>
                             <constraint firstItem="hsF-YE-jEH" firstAttribute="leading" secondItem="aGv-eM-JOa" secondAttribute="leading" id="t2F-ZE-YuV"/>
+                            <constraint firstItem="vqa-8L-gxL" firstAttribute="width" secondItem="Me1-qp-TKc" secondAttribute="height" multiplier="101:150" id="vcn-35-99o"/>
                             <constraint firstAttribute="centerX" secondItem="vqa-8L-gxL" secondAttribute="centerX" constant="-82" id="xGL-e6-P3g"/>
                         </constraints>
                         <variation key="default">

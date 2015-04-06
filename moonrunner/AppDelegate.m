@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "DetailViewController.h"
 #import "HomeViewController.h"
+#import <EstimoteSDK/ESTBeaconManager.h>
+#import <EstimoteSDK/ESTConfig.h>
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -23,6 +25,8 @@
     
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
 
+    [ESTConfig setupAppID:@"cyclecity" andAppToken:@"6f68b19116c09226a12a5af03d1e476c"];
+    
     HomeViewController *controller = (HomeViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
     return YES;

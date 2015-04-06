@@ -16,7 +16,7 @@
 
 static NSString * const detailSegueName = @"RunDetails";
 
-@interface NewRunViewController () <UIActionSheetDelegate, CLLocationManagerDelegate,MKMapViewDelegate>
+@interface NewRunViewController () <UIActionSheetDelegate, CLLocationManagerDelegate, MKMapViewDelegate>
 
 @property int seconds;
 @property float distance;

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8649B6E21AB4D4C8009AF977 /* MulticolorPolylineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8649B6E11AB4D4C8009AF977 /* MulticolorPolylineSegment.m */; };
+		8649B6E41AB4E37B009AF977 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8649B6E31AB4E37B009AF977 /* CoreBluetooth.framework */; };
+		8649B6E61AB4E386009AF977 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8649B6E51AB4E386009AF977 /* CoreLocation.framework */; };
 		8689F5BE1AAE979800910B37 /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8689F5BD1AAE979800910B37 /* MathController.m */; };
 		8689F5C01AAE98BC00910B37 /* MathControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8689F5BF1AAE98BC00910B37 /* MathControllerTest.m */; };
 		86F2D4751AA959200045EA17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F2D4741AA959200045EA17 /* main.m */; };
@@ -88,6 +90,8 @@
 		6D30B864113BE5057373FB03 /* Pods-moonrunner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonrunner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moonrunner/Pods-moonrunner.debug.xcconfig"; sourceTree = "<group>"; };
 		8649B6E01AB4D4C8009AF977 /* MulticolorPolylineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticolorPolylineSegment.h; sourceTree = "<group>"; };
 		8649B6E11AB4D4C8009AF977 /* MulticolorPolylineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticolorPolylineSegment.m; sourceTree = "<group>"; };
+		8649B6E31AB4E37B009AF977 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8649B6E51AB4E386009AF977 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		8689F5BC1AAE979800910B37 /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathController.h; sourceTree = "<group>"; };
 		8689F5BD1AAE979800910B37 /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathController.m; sourceTree = "<group>"; };
 		8689F5BF1AAE98BC00910B37 /* MathControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathControllerTest.m; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8649B6E61AB4E386009AF977 /* CoreLocation.framework in Frameworks */,
+				8649B6E41AB4E37B009AF977 /* CoreBluetooth.framework in Frameworks */,
 				86F2D4A51AA95AC00045EA17 /* MapKit.framework in Frameworks */,
 				DF01BA5A4AB8829D32EFA228 /* libPods-moonrunner.a in Frameworks */,
 			);
@@ -184,6 +190,8 @@
 		7E1D3BCA9646B882113D457B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8649B6E51AB4E386009AF977 /* CoreLocation.framework */,
+				8649B6E31AB4E37B009AF977 /* CoreBluetooth.framework */,
 				02075B5FA5254BDEB1000BC0 /* libPods-moonrunnerTests.a */,
 				1D8A5CBD116D61A99200B3B5 /* libPods-moonrunner.a */,
 			);
