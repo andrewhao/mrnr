@@ -46,7 +46,9 @@
     [self.beaconManager requestAlwaysAuthorization];
 
     self.beaconRegion = [[ESTBeaconRegion alloc] initWithProximityUUID:ESTIMOTE_PROXIMITY_UUID
-                                                                        identifier:@"bike"];
+                                                                 major:34413
+                                                                 minor:14923
+                                                            identifier:@"home"];
 
     self.beaconRegion.notifyOnEntry = YES;
     self.beaconRegion.notifyOnExit = YES;
